@@ -168,6 +168,18 @@ h2 {
   margin-bottom: 5%;
 }
 
+#insta img{
+  display:flex;
+  justify-content: center;
+  width:3%;
+  height: 3%;
+  margin-left: 49%;
+  margin-bottom: 5%;
+  
+}
+
+
+
 /* break point for different media sources */
 
 @media (max-width: 768px) {
@@ -204,7 +216,17 @@ h2 {
       
   }
   
+  #insta img{
+    display:flex;
+      justify-content: center;
+      width:30%;
+      height: 30%;
+      margin-top: 2%;
+      margin-left: 65vw;
       
+  }
+  
+  
   
 }
 
@@ -249,4 +271,14 @@ h2 {
     font-size: 2.8rem;
     margin-top: 6%;
 }
+}
+
+#insta img{
+  display:flex;
+    justify-content: center;
+    width:30%;
+    height: 30%;
+    margin-top: 2%;
+    margin-left: 65vw;
+    
 }
